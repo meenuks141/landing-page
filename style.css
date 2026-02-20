@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 100px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 100px;
+}
+.hero-image img {
+    width: 500px;   /* control the size */
+    height: auto;   /* keeps correct proportion */
+}
+.hero-text {
+    max-width: 500px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info {
+    text-align: center;
+    padding: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin: auto;
+}
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+.cta {
+    padding: 80px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.cta-box button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
